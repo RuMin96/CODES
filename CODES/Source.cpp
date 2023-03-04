@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<conio.h>
 using namespace std;
 //#define PALINDROM
@@ -11,7 +11,7 @@ void main()
 #ifdef PALINDROM
 	int number;
 	int reverse = 0;
-	cout << "Ââåäèòå ÷èñëî"; cin >> number;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾"; cin >> number;
 	int buffer = number;
 	while (buffer)
 	{
@@ -23,11 +23,11 @@ void main()
 	cout << reverse << endl;
 	if (reverse == number)
 	{
-		cout << "Ïàëèíäðîì" << endl;
+		cout << "ÐŸÐ°Ð»Ð¸Ð½Ð´Ñ€Ð¾Ð¼" << endl;
 	}
 	else
 	{
-		cout << "Íå ïàëèíäðîì" << endl;
+		cout << "ÐÐµ Ð¿Ð°Ð»Ð¸Ð½Ð´Ñ€Ð¾Ð¼" << endl;
 	}
 #endif
 
@@ -36,18 +36,18 @@ void main()
 	int order;
 	int first_part;
 	int second_part;
-	cout << "Ââåäèòå âàø ñ÷àñòëèâûé áèëåò"; cin >> order;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ð°Ñˆ ÑÑ‡Ð°ÑÑ‚Ð»Ð¸Ð²Ñ‹Ð¹ Ð±Ð¸Ð»ÐµÑ‚"; cin >> order;
 	first_part = order / 1000;
 	second_part = order % 1000;
 	cout << first_part << endl;
 	cout << second_part << endl;
 	if (second_part = first_part)
 	{
-		cout << "Ó âàñ ñ÷àñòëèâûé áèëåò" << endl;
+		cout << "Ð£ Ð²Ð°Ñ ÑÑ‡Ð°ÑÑ‚Ð»Ð¸Ð²Ñ‹Ð¹ Ð±Ð¸Ð»ÐµÑ‚" << endl;
 	}
 	else
 	{
-		cout << "Ó âàñ íå ñ÷àñëèâûé áèëåò" << endl;
+		cout << "Ð£ Ð²Ð°Ñ Ð½Ðµ ÑÑ‡Ð°ÑÐ»Ð¸Ð²Ñ‹Ð¹ Ð±Ð¸Ð»ÐµÑ‚" << endl;
 	}
 #endif
 
@@ -60,28 +60,28 @@ void main()
 
 		if (key == 'w')
 		{
-			cout << "Âïåðåä" << endl;
+			cout << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl;
 		}
 		else if (key == 's')
 		{
-			cout << "Íàçàä" << endl;
+			cout << "ÐÐ°Ð·Ð°Ð´" << endl;
 
 		}
 		else if (key == 'a')
 		{
-			cout << "Âëåâî" << endl;
+			cout << "Ð’Ð»ÐµÐ²Ð¾" << endl;
 		}
 		else if (key == 'd')
 		{
-			cout << "Âïðàâî" << endl;
+			cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl;
 		}
 		else if (key == 32)
 		{
-			cout << "Ïðûæîê" << endl;
+			cout << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << endl;
 		}
 		else if (key == 13)
 		{
-			cout << "Îãîíü" << endl;
+			cout << "ÐžÐ³Ð¾Ð½ÑŒ" << endl;
 		}
 	} while (key != 27);
 
